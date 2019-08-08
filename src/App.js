@@ -1,0 +1,16 @@
+import React from 'react';
+import { Header, Post, View } from '@bit/marcelxsilva.blog-simple.components'
+function App() {
+  return (
+    <div className="App">
+      <Header title='Blog Bit.dev' />
+      <View>
+        <Post titlePost='test bitdev ' description='components ' content={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pulvinar tortor elit, et faucibus sem vehicula ut. Duis a luctus ante. Aliquam semper mauris orci, at tempor lorem rhoncus ut. Donec id fermentum nisl, eget suscipit risus. Nunc varius odio quis viverra vulputate. Donec consectetur erat quis felis commodo efficitur. Cras eros sapien, posuere eget tristique nec, imperdiet ac justo. Phasellus ornare felis vel eros fermentum semper. Sed tempus orci in orci volutpat ullamcorper. Curabitur pharetra scelerisque est, et pretium enim maximus eget. Proin elementum lectus nec orci posuere pellentesque. Quisque at varius lacus, quis finibus nisi. Donec sit amet.'} />
+        <Post titlePost='state ' description='state' content={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pulvinar tortor elit, et faucibus sem vehicula ut. Duis a luctus ante. Aliquam semper mauris orci, at tempor lorem rhoncus ut. Donec id fermentum nisl, eget suscipit risus. Nunc varius odio quis viverra vulputate. Donec consectetur erat quis felis commodo efficitur. Cras eros sapien, posuere eget tristique nec, imperdiet ac justo. Phasellus ornare felis vel eros fermentum semper. Sed tempus orci in orci volutpat ullamcorper. Curabitur pharetra scelerisque est, et pretium enim maximus eget. Proin elementum lectus nec orci posuere pellentesque. Quisque at varius lacus, quis finibus nisi. Donec sit amet.'} />
+        <Post titlePost='props ' description='props' content={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pulvinar tortor elit, et faucibus sem vehicula ut. Duis a luctus ante. Aliquam semper mauris orci, at tempor lorem rhoncus ut. Donec id fermentum nisl, eget suscipit risus. Nunc varius odio quis viverra vulputate. Donec consectetur erat quis felis commodo efficitur. Cras eros sapien, posuere eget tristique nec, imperdiet ac justo. Phasellus ornare felis vel eros fermentum semper. Sed tempus orci in orci volutpat ullamcorper. Curabitur pharetra scelerisque est, et pretium enim maximus eget. Proin elementum lectus nec orci posuere pellentesque. Quisque at varius lacus, quis finibus nisi. Donec sit amet.'} />
+        <Post titlePost='hooks ' description='hooks' content={'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pulvinar tortor elit, et faucibus sem vehicula ut. Duis a luctus ante. Aliquam semper mauris orci, at tempor lorem rhoncus ut. Donec id fermentum nisl, eget suscipit risus. Nunc varius odio quis viverra vulputate. Donec consectetur erat quis felis commodo efficitur. Cras eros sapien, posuere eget tristique nec, imperdiet ac justo. Phasellus ornare felis vel eros fermentum semper. Sed tempus orci in orci volutpat ullamcorper. Curabitur pharetra scelerisque est, et pretium enim maximus eget. Proin elementum lectus nec orci posuere pellentesque. Quisque at varius lacus, quis finibus nisi. Donec sit amet.'} />
+      </View>
+    </div>
+  );
+}
+export default App;
